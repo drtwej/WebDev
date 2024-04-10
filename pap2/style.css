@@ -1,0 +1,79 @@
+div#content {
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: bold;
+    width: 80%;
+    border: none;
+    margin: auto;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: lightcoral;
+    clear: left;
+    text-align: center;
+}
+nav {
+    height: 40px;
+    border: solid #333;
+    padding: 1em;
+    text-align: center;
+    list-style-type: none;
+    background-color: #7bcaee;
+}
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border: solid rgb(136, 136, 136) 2px;
+}
+
+#main {
+    padding: 1em;
+    font-weight: normal;
+    text-align: justify;
+}
+
+div #logo img {
+    width: 200px;
+    height: 150px;
+    float: left
+    ;
+}
+
+table#tours {
+    width: 80%;
+    margin: auto;
+
+}
+
+table#tours td {
+    text-align: center;
+    border: 1.5px solid black;
+}
+
+#tours {
+    text-align: left;
+}
+.tour {
+    width: 30%;
+    border: #66CDAA solid 2px;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    float: left;
+}
+
+.tour img {
+    width: 150px;
+    height: 150px;
+}
+
+div.tour a {
+    background-color: #66CDAA;
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px;
+}
